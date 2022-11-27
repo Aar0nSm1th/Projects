@@ -1,0 +1,38 @@
+// oppr.org/s/FVXEkN0P Copy and paste this link in order to get a preview of the project!
+
+
+
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+    background(20, 68, 245);
+}
+function draw() {
+fill(168, 127, 88); //neck color
+rect(235, 180, 30, 70);   //neck position/height
+fill(168, 127, 88) //face color
+circle(250, 120, 140); // head position
+fill(0)
+circle(200, 70, 45); //hair 
+circle(220, 50, 45)
+circle(240, 45, 45)
+circle(260, 50, 45)
+circle(280, 50, 45)
+circle(300, 70, 45)
+circle(195, 34, 35)
+circle(305, 34, 35)
+circle(225, 34, 35)
+circle(275, 34, 35)
+circle(300, 34, 35)
+fill(255)  //eye color
+circle(220, 93, 22) //left eye position
+circle(275, 93, 22) //right eye position
+fill(97, 56, 62) // pupil color
+circle (220, 93, 8) //left pupil position
+circle (275, 93, 8) //right pupil position
+fill(168, 127, 88)  //nose color
+triangle(240, 130, 250, 115, 260, 130); //nose position
+fill(255) //teeth color
+arc(250, 140, 30, 50, 0, radians(180)); //teeth position
+fill(245, 11, 2); //body color
+rect(150, 220, 200, 150);  //body
+print(mouseX, mouseY); }
