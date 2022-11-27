@@ -1,0 +1,33 @@
+// oppr.org/s/8lnHQ20A Copy and paste this link in order to view the project!
+
+
+
+function setup() {
+	createCanvas(350,750);
+	background(3,209,255); }
+//for (let i = 0; i < 20; i++) 
+ // fill(255,3,226);square(250,250,30); 
+
+function draw() {
+for (let x = 0; x < 80; x++) {
+fill(255,3,3);square(x, 10*x, 25);
+}
+for (let x = 0; x < 80; x++) {
+fill(255,154,3);square(x+25, 10*x, 25);
+}
+for (let x = 0; x < 80; x++) {
+fill(255,251,3);square(x+50, 10*x, 25);
+} 
+for (let x = 0; x < 80; x++) {
+fill (57,255,3);square(x+75, 10*x, 25);
+}
+for (let x = 0; x < 80; x++)  {
+fill(3,11,255);square(x+100, 10*x, 25);
+}
+for (let x = 0; x < 80; x++) {
+fill(78,3,255);square(x+125, 10*x, 25);
+}
+for (let x = 0; x < 80; x++) {
+fill(150,3,255);square(x+150, 10*x, 25);
+}
+}
